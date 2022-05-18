@@ -40,7 +40,7 @@ function PostDetails() {
 										<span>{comment.author}</span>
 										<span>on {dateFormat(comment.created_at_i)}</span>
 
-										{/* {JSON.stringify(comment)} */}
+										 {JSON.stringify(comment)} 
 									</div>
 									<span dangerouslySetInnerHTML={{ __html: comment.text }} />
 								</div>
